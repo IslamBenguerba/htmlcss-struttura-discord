@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav{
+    max-width: 900px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border: dashed 1px black;
+    flex-grow: 0.5;
+}
+.links{
+    border: dashed 1px black;
+    flex-grow: 1;
+    text-align: center;
+}
+.login{
+    border: dashed 1px black;
+    flex-grow: 0.5;
+}
+/* sezione parametri generali */
+.section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+/* le varie sezioni dal primo al'ultimo */
+.primo{
+    background-color: aquamarine;
+}
+.secondo{
+    background-color: rgb(136, 127, 255);
+}
+.terzo{
+    background-color: rgb(138, 255, 127);
+}
+.container{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    height: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container >.text{
+    width: 60%;
+    background-color: cadetblue;
+}
+.container >.img{
+    background-color: crimson;
+    width: 40%;
+    height: 100%;
+}
+
+.secondo .text{
+    width: 40%;
+}
+.secondo .img{
+    width: 60%;
+}
+.quarto .text{
+    width: 100%;
+    background-color: green;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.foot-container{
+    border: dashed 2px black;
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px ;
+    height: 250px;
+}
+.card{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    border: 1px dashed beige;
+}
+.left{
+    border: dashed 1px black;
+    background-color: wheat ;
+    flex-grow: 1;
+}
+.foot-second-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+.foot-second-container > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left:5px ;
+    padding-right: 5px;
+    border: dashed 1px black;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    background-color: brown;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
